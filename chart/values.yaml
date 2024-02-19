@@ -1,0 +1,13 @@
+core-provider:
+  podEnv:
+    - name: CORE_PROVIDER_DEBUG
+      value: "true"
+    - name: CDC_IMAGE_TAG
+      value: "0.5.2"
+
+eventrouter:
+  podEnv:
+    - name: EVENT_ROUTER_INSECURE
+      value: "false"
+    - name: EVENT_ROUTER_DEBUG
+      value: "false"
